@@ -1,0 +1,1728 @@
+[
+  {
+    "id": 1,
+    "title": "Butter Chicken",
+    "title_jp": "バターチキン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "butter",
+      "tomato",
+      "cream",
+      "spices",
+      "yogurt",
+      "garam masala"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "バター",
+      "トマト",
+      "クリーム",
+      "スパイス",
+      "ヨーグルト",
+      "ガラムマサラ"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, ginger-garlic paste, and spices for 2 hours",
+      "Cook chicken until golden brown and set aside",
+      "Prepare tomato-based gravy with butter, onions, and tomatoes",
+      "Add cream and simmer until sauce thickens",
+      "Combine chicken with gravy and garnish with fresh coriander"
+    ],
+    "instructions_jp": [
+      "鶏肉をヨーグルト、ジンジャーガーリックペースト、スパイスで2時間マリネする",
+      "鶏肉を黄金色になるまで調理して取り置く",
+      "バター、タマネギ、トマトでトマトベースのグレービーを準備する",
+      "クリームを加えてソースが濃くなるまで煮込む",
+      "鶏肉とグレービーを組み合わせ、フレッシュコリアンダーで飾る"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "title": "Biryani",
+    "title_jp": "ビリヤニ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963c8d8?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "onion",
+      "spices",
+      "saffron",
+      "mint",
+      "cardamom"
+    ],
+    "ingredients_jp": [
+      "米",
+      "鶏肉",
+      "タマネギ",
+      "スパイス",
+      "サフラン",
+      "ミント",
+      "カルダモン"
+    ],
+    "instructions": [
+      "Soak basmati rice for 30 minutes",
+      "Marinate chicken with yogurt and biryani spices",
+      "Layer rice and chicken in a heavy-bottomed pot",
+      "Add saffron-infused milk and steam for 45 minutes",
+      "Let it rest for 10 minutes before serving"
+    ],
+    "instructions_jp": [
+      "バスマティ米を30分間浸す",
+      "鶏肉をヨーグルトとビリヤニスパイスでマリネする",
+      "重い底の鍋に米と鶏肉を重ねる",
+      "サフランを浸した牛乳を加えて45分間蒸す",
+      "提供前に10分間休ませる"
+    ],
+    "prepTime": "45 mins",
+    "cookTime": "60 mins",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 3,
+    "title": "Palak Paneer",
+    "title_jp": "パラクパニール",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "spinach",
+      "paneer",
+      "onion",
+      "garlic",
+      "spices",
+      "ginger",
+      "cream"
+    ],
+    "ingredients_jp": [
+      "ほうれん草",
+      "パニール",
+      "タマネギ",
+      "ニンニク",
+      "スパイス",
+      "ジンジャー",
+      "クリーム"
+    ],
+    "instructions": [
+      "Blanch spinach and puree with ginger-garlic paste",
+      "Sauté onions until golden brown",
+      "Add spinach puree and spices, cook for 5 minutes",
+      "Add paneer cubes and simmer for 5 minutes",
+      "Finish with cream and serve hot"
+    ],
+    "instructions_jp": [
+      "ほうれん草を湯通ししてジンジャーガーリックペーストとピューレにする",
+      "タマネギを黄金色になるまで炒める",
+      "ほうれん草のピューレとスパイスを加えて5分間調理する",
+      "パニールのキューブを加えて5分間煮込む",
+      "クリームで仕上げて熱いうちに提供する"
+    ],
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "title": "Tandoori Chicken",
+    "title_jp": "タンドリーチキン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "yogurt",
+      "spices",
+      "ginger",
+      "garlic",
+      "lemon",
+      "mustard oil"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "ヨーグルト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "レモン",
+      "マスタードオイル"
+    ],
+    "instructions": [
+      "Make deep cuts in chicken pieces",
+      "Mix yogurt with tandoori masala and ginger-garlic paste",
+      "Marinate chicken for 4-6 hours",
+      "Cook in tandoor or oven at high temperature",
+      "Serve with mint chutney and onion rings"
+    ],
+    "instructions_jp": [
+      "鶏肉の塊に深い切り込みを入れる",
+      "ヨーグルトをタンドリーマサラとジンジャーガーリックペーストと混ぜる",
+      "鶏肉を4-6時間マリネする",
+      "タンドールまたは高温のオーブンで調理する",
+      "ミントチャツネとタマネギリングと一緒に提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "title": "Dal Makhani",
+    "title_jp": "ダールマカニ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "black lentils",
+      "kidney beans",
+      "butter",
+      "cream",
+      "spices",
+      "onion",
+      "tomato"
+    ],
+    "ingredients_jp": [
+      "黒レンズ豆",
+      "キドニービーンズ",
+      "バター",
+      "クリーム",
+      "スパイス",
+      "タマネギ",
+      "トマト"
+    ],
+    "instructions": [
+      "Soak lentils and beans overnight",
+      "Pressure cook until soft and mushy",
+      "Prepare tempering with butter, spices, and aromatics",
+      "Combine with cooked lentils and simmer",
+      "Finish with cream and butter for richness"
+    ],
+    "instructions_jp": [
+      "レンズ豆とビーンズを一晩浸す",
+      "柔らかく煮込むまで圧力鍋で調理する",
+      "バター、スパイス、香味野菜でテンパリングを準備する",
+      "調理されたレンズ豆と組み合わせて煮込む",
+      "クリームとバターで豊かさを仕上げる"
+    ],
+    "prepTime": "8 hours",
+    "cookTime": "45 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "title": "Naan Bread",
+    "title_jp": "ナン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "flour",
+      "yeast",
+      "yogurt",
+      "milk",
+      "butter",
+      "sugar",
+      "salt"
+    ],
+    "ingredients_jp": [
+      "小麦粉",
+      "イースト",
+      "ヨーグルト",
+      "牛乳",
+      "バター",
+      "砂糖",
+      "塩"
+    ],
+    "instructions": [
+      "Activate yeast in warm milk with sugar",
+      "Mix flour, yogurt, and yeast mixture to form dough",
+      "Knead dough until smooth and elastic",
+      "Let dough rise for 2 hours",
+      "Roll and cook on hot griddle until puffed"
+    ],
+    "instructions_jp": [
+      "温かい牛乳と砂糖でイーストを活性化する",
+      "小麦粉、ヨーグルト、イースト混合物を混ぜて生地を作る",
+      "生地が滑らかで弾力性があるまでこねる",
+      "生地を2時間発酵させる",
+      "生地を伸ばして熱いグリドルで膨らむまで調理する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "15 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "title": "Chicken Tikka Masala",
+    "title_jp": "チキンティッカマサラ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "yogurt",
+      "spices",
+      "tomato",
+      "cream",
+      "onion",
+      "garlic"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "ヨーグルト",
+      "スパイス",
+      "トマト",
+      "クリーム",
+      "タマネギ",
+      "ニンニク"
+    ],
+    "instructions": [
+      "Marinate chicken in spiced yogurt",
+      "Grill chicken until charred and cooked through",
+      "Prepare masala sauce with onions, tomatoes, and spices",
+      "Add grilled chicken to sauce and simmer",
+      "Finish with cream and garnish with coriander"
+    ],
+    "instructions_jp": [
+      "鶏肉をスパイス入りヨーグルトでマリネする",
+      "鶏肉を焦げ目がついて完全に調理されるまでグリルする",
+      "タマネギ、トマト、スパイスでマサラソースを準備する",
+      "グリルした鶏肉をソースに加えて煮込む",
+      "クリームで仕上げ、コリアンダーで飾る"
+    ],
+    "prepTime": "25 mins",
+    "cookTime": "35 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "title": "Vegetable Curry",
+    "title_jp": "野菜カレー",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "potato",
+      "carrot",
+      "peas",
+      "onion",
+      "tomato",
+      "spices",
+      "coconut milk"
+    ],
+    "ingredients_jp": [
+      "ジャガイモ",
+      "ニンジン",
+      "エンドウ豆",
+      "タマネギ",
+      "トマト",
+      "スパイス",
+      "ココナッツミルク"
+    ],
+    "instructions": [
+      "Chop all vegetables into similar-sized pieces",
+      "Sauté onions and spices until fragrant",
+      "Add vegetables and cook for 5 minutes",
+      "Pour in coconut milk and simmer until tender",
+      "Adjust seasoning and serve with rice or bread"
+    ],
+    "instructions_jp": [
+      "すべての野菜を同じサイズの塊に切る",
+      "タマネギとスパイスを香りが出るまで炒める",
+      "野菜を加えて5分間調理する",
+      "ココナッツミルクを注いで柔らかくなるまで煮込む",
+      "味を調整して米やパンと一緒に提供する"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "title": "Rogan Josh",
+    "title_jp": "ローガンジョッシュ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb",
+      "onion",
+      "spices",
+      "yogurt",
+      "tomato",
+      "ginger",
+      "garlic"
+    ],
+    "ingredients_jp": [
+      "ラム肉",
+      "タマネギ",
+      "スパイス",
+      "ヨーグルト",
+      "トマト",
+      "ジンジャー",
+      "ニンニク"
+    ],
+    "instructions": [
+      "Marinate lamb in yogurt and spices",
+      "Sauté onions until caramelized",
+      "Add marinated lamb and brown on all sides",
+      "Add tomatoes and simmer until meat is tender",
+      "Garnish with fresh mint and serve hot"
+    ],
+    "instructions_jp": [
+      "ラム肉をヨーグルトとスパイスでマリネする",
+      "タマネギをキャラメル化されるまで炒める",
+      "マリネしたラム肉を加えて全面を茶色くする",
+      "トマトを加えて肉が柔らかくなるまで煮込む",
+      "フレッシュミントで飾って熱いうちに提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "90 mins",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10,
+    "title": "Aloo Gobi",
+    "title_jp": "アールーゴビ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "potato",
+      "cauliflower",
+      "onion",
+      "spices",
+      "turmeric",
+      "cumin",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "ジャガイモ",
+      "カリフラワー",
+      "タマネギ",
+      "スパイス",
+      "ターメリック",
+      "クミン",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Cut potatoes and cauliflower into florets",
+      "Sauté cumin seeds and onions until golden",
+      "Add turmeric and other spices",
+      "Add vegetables and cook until tender",
+      "Garnish with fresh coriander leaves"
+    ],
+    "instructions_jp": [
+      "ジャガイモとカリフラワーを小房に切る",
+      "クミンの種とタマネギを黄金色になるまで炒める",
+      "ターメリックと他のスパイスを加える",
+      "野菜を加えて柔らかくなるまで調理する",
+      "フレッシュコリアンダーの葉で飾る"
+    ],
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "title": "Chicken Seekh Kebab",
+    "title_jp": "チキンシークケバブ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken mince",
+      "onion",
+      "ginger",
+      "garlic",
+      "spices",
+      "coriander",
+      "mint",
+      "egg"
+    ],
+    "ingredients_jp": [
+      "鶏ひき肉",
+      "タマネギ",
+      "ジンジャー",
+      "ニンニク",
+      "スパイス",
+      "コリアンダー",
+      "ミント",
+      "卵"
+    ],
+    "instructions": [
+      "Mix chicken mince with finely chopped onions, ginger-garlic paste, and spices",
+      "Add fresh coriander and mint leaves",
+      "Shape mixture around skewers and refrigerate for 30 minutes",
+      "Grill or cook on hot griddle until golden and cooked through",
+      "Serve with mint chutney and onion rings"
+    ],
+    "instructions_jp": [
+      "鶏ひき肉に細かく刻んだタマネギ、ジンジャーガーリックペースト、スパイスを混ぜる",
+      "フレッシュコリアンダーとミントの葉を加える",
+      "混合物を串の周りに成形して30分間冷蔵する",
+      "黄金色になって完全に調理されるまでグリルまたは熱いグリドルで調理する",
+      "ミントチャツネとタマネギリングと一緒に提供する"
+    ],
+    "prepTime": "40 mins",
+    "cookTime": "15 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "title": "Mutton Seekh Kebab",
+    "title_jp": "マトンシークケバブ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "mutton mince",
+      "onion",
+      "ginger",
+      "garlic",
+      "spices",
+      "coriander",
+      "mint",
+      "egg"
+    ],
+    "ingredients_jp": [
+      "マトンひき肉",
+      "タマネギ",
+      "ジンジャー",
+      "ニンニク",
+      "スパイス",
+      "コリアンダー",
+      "ミント",
+      "卵"
+    ],
+    "instructions": [
+      "Mix mutton mince with finely chopped onions, ginger-garlic paste, and spices",
+      "Add fresh coriander and mint leaves for flavor",
+      "Shape mixture around metal skewers and refrigerate",
+      "Grill on high heat until charred and cooked through",
+      "Serve hot with mint chutney and sliced onions"
+    ],
+    "instructions_jp": [
+      "マトンひき肉に細かく刻んだタマネギ、ジンジャーガーリックペースト、スパイスを混ぜる",
+      "風味のためにフレッシュコリアンダーとミントの葉を加える",
+      "混合物を金属串の周りに成形して冷蔵する",
+      "焦げ目がついて完全に調理されるまで高温でグリルする",
+      "ミントチャツネとスライスしたタマネギと一緒に熱いうちに提供する"
+    ],
+    "prepTime": "45 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "title": "Boti Kebab",
+    "title_jp": "ボティケバブ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb pieces",
+      "yogurt",
+      "spices",
+      "ginger",
+      "garlic",
+      "onion",
+      "lemon juice"
+    ],
+    "ingredients_jp": [
+      "ラム肉の塊",
+      "ヨーグルト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "タマネギ",
+      "レモン汁"
+    ],
+    "instructions": [
+      "Cut lamb into small, uniform pieces",
+      "Marinate with yogurt, ginger-garlic paste, and spices",
+      "Add lemon juice and let marinate for 4-6 hours",
+      "Thread pieces onto skewers and grill until charred",
+      "Serve with mint chutney and onion salad"
+    ],
+    "instructions_jp": [
+      "ラム肉を小さく、均一な塊に切る",
+      "ヨーグルト、ジンジャーガーリックペースト、スパイスでマリネする",
+      "レモン汁を加えて4-6時間マリネする",
+      "塊を串に刺して焦げ目がつくまでグリルする",
+      "ミントチャツネとタマネギサラダと一緒に提供する"
+    ],
+    "prepTime": "6 hours",
+    "cookTime": "25 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "title": "Shami Kebab",
+    "title_jp": "シャミケバブ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb mince",
+      "chana dal",
+      "onion",
+      "ginger",
+      "garlic",
+      "spices",
+      "egg"
+    ],
+    "ingredients_jp": [
+      "ラムひき肉",
+      "チャナダル",
+      "タマネギ",
+      "ジンジャー",
+      "ニンニク",
+      "スパイス",
+      "卵"
+    ],
+    "instructions": [
+      "Cook lamb mince with chana dal until tender",
+      "Grind mixture with onions, ginger, garlic, and spices",
+      "Shape into flat, round patties",
+      "Dip in beaten egg and shallow fry until golden",
+      "Serve with mint chutney and sliced onions"
+    ],
+    "instructions_jp": [
+      "ラムひき肉をチャナダルと一緒に柔らかくなるまで調理する",
+      "タマネギ、ジンジャー、ニンニク、スパイスと一緒に混合物を挽く",
+      "平らで丸いパティに成形する",
+      "溶いた卵に浸して黄金色になるまで浅く揚げる",
+      "ミントチャツネとスライスしたタマネギと一緒に提供する"
+    ],
+    "prepTime": "60 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "title": "Galouti Kebab",
+    "title_jp": "ガラウティケバブ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb mince",
+      "papaya paste",
+      "spices",
+      "ginger",
+      "garlic",
+      "onion",
+      "ghee"
+    ],
+    "ingredients_jp": [
+      "ラムひき肉",
+      "パパイヤペースト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "タマネギ",
+      "ギー"
+    ],
+    "instructions": [
+      "Mix lamb mince with papaya paste for tenderization",
+      "Add ginger-garlic paste and aromatic spices",
+      "Shape into thin, flat patties",
+      "Cook on hot griddle with ghee until done",
+      "Serve immediately with roomali roti and chutney"
+    ],
+    "instructions_jp": [
+      "ラムひき肉にパパイヤペーストを混ぜて柔らかくする",
+      "ジンジャーガーリックペーストと芳香のあるスパイスを加える",
+      "薄く平らなパティに成形する",
+      "ギーで熱いグリドルで調理されるまで調理する",
+      "ルーマリロティとチャツネと一緒にすぐに提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "10 mins",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "title": "Haleem",
+    "title_jp": "ハリーム",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb",
+      "wheat",
+      "lentils",
+      "spices",
+      "onion",
+      "ginger",
+      "garlic",
+      "ghee"
+    ],
+    "ingredients_jp": [
+      "ラム肉",
+      "小麦",
+      "レンズ豆",
+      "スパイス",
+      "タマネギ",
+      "ジンジャー",
+      "ニンニク",
+      "ギー"
+    ],
+    "instructions": [
+      "Cook lamb with wheat and lentils until very tender",
+      "Shred meat and blend with cooked grains to form paste",
+      "Add aromatic spices and cook on low heat",
+      "Stir continuously until mixture thickens",
+      "Garnish with fried onions, ginger, and lemon"
+    ],
+    "instructions_jp": [
+      "ラム肉を小麦とレンズ豆と一緒に非常に柔らかくなるまで調理する",
+      "肉を細かく裂き、調理された穀物と混ぜてペーストを作る",
+      "芳香のあるスパイスを加えて弱火で調理する",
+      "混合物が濃くなるまで継続的にかき混ぜる",
+      "揚げたタマネギ、ジンジャー、レモンで飾る"
+    ],
+    "prepTime": "8 hours",
+    "cookTime": "4 hours",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "title": "Chicken Changezi",
+    "title_jp": "チキンチャンゲジ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "tomato",
+      "spices",
+      "ginger",
+      "garlic",
+      "yogurt",
+      "cream"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "タマネギ",
+      "トマト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "ヨーグルト",
+      "クリーム"
+    ],
+    "instructions": [
+      "Marinate chicken in spiced yogurt mixture",
+      "Cook onions until caramelized and golden",
+      "Add tomatoes and cook until soft",
+      "Add marinated chicken and cook through",
+      "Finish with cream and garnish with coriander"
+    ],
+    "instructions_jp": [
+      "鶏肉をスパイス入りヨーグルト混合物でマリネする",
+      "タマネギをキャラメル化されて黄金色になるまで調理する",
+      "トマトを加えて柔らかくなるまで調理する",
+      "マリネした鶏肉を加えて完全に調理する",
+      "クリームで仕上げ、コリアンダーで飾る"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "40 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "title": "Hyderabadi Dum Ka Chicken",
+    "title_jp": "ハイデラバディダムカチキン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "yogurt",
+      "ghee",
+      "saffron"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "ヨーグルト",
+      "ギー",
+      "サフラン"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and aromatic spices",
+      "Layer onions and chicken in heavy-bottomed pot",
+      "Add saffron-infused milk and seal pot with dough",
+      "Cook on low heat for 2-3 hours until tender",
+      "Break seal and serve hot with naan bread"
+    ],
+    "instructions_jp": [
+      "鶏肉をヨーグルトと芳香のあるスパイスでマリネする",
+      "重い底の鍋にタマネギと鶏肉を重ねる",
+      "サフランを浸した牛乳を加えて生地で鍋を密封する",
+      "柔らかくなるまで2-3時間弱火で調理する",
+      "封印を破ってナンと一緒に熱いうちに提供する"
+    ],
+    "prepTime": "4 hours",
+    "cookTime": "3 hours",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "title": "Rara Mutton",
+    "title_jp": "ララマトン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "mutton",
+      "onion",
+      "tomato",
+      "spices",
+      "ginger",
+      "garlic",
+      "ghee",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "マトン",
+      "タマネギ",
+      "トマト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "ギー",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Cook mutton pieces until tender",
+      "Prepare masala with onions, tomatoes, and spices",
+      "Add cooked mutton to masala",
+      "Cook until gravy thickens and oil separates",
+      "Garnish with fresh coriander and serve hot"
+    ],
+    "instructions_jp": [
+      "マトンの塊を柔らかくなるまで調理する",
+      "タマネギ、トマト、スパイスでマサラを準備する",
+      "調理されたマトンをマサラに加える",
+      "グレービーが濃くなり油が分離するまで調理する",
+      "フレッシュコリアンダーで飾って熱いうちに提供する"
+    ],
+    "prepTime": "45 mins",
+    "cookTime": "90 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "title": "Paya Soup",
+    "title_jp": "パヤスープ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "goat trotters",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "wheat flour",
+      "ghee"
+    ],
+    "ingredients_jp": [
+      "ヤギの足",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "小麦粉",
+      "ギー"
+    ],
+    "instructions": [
+      "Clean and wash goat trotters thoroughly",
+      "Pressure cook with spices until meat falls off bone",
+      "Prepare tempering with ghee, onions, and spices",
+      "Add cooked trotters and simmer",
+      "Thicken with wheat flour and serve hot"
+    ],
+    "instructions_jp": [
+      "ヤギの足を徹底的に洗浄して洗う",
+      "肉が骨から落ちるまでスパイスと一緒に圧力鍋で調理する",
+      "ギー、タマネギ、スパイスでテンパリングを準備する",
+      "調理された足を加えて煮込む",
+      "小麦粉で濃くして熱いうちに提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "4 hours",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 21,
+    "title": "Kerala Beef Fry",
+    "title_jp": "ケララビーフフライ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "beef",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "curry leaves",
+      "coconut oil",
+      "pepper"
+    ],
+    "ingredients_jp": [
+      "牛肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "カレーリーフ",
+      "ココナッツオイル",
+      "コショウ"
+    ],
+    "instructions": [
+      "Marinate beef with ginger-garlic paste and spices",
+      "Cook beef until tender in pressure cooker",
+      "Shred beef and set aside",
+      "Sauté onions, curry leaves, and spices in coconut oil",
+      "Add shredded beef and cook until crispy"
+    ],
+    "instructions_jp": [
+      "牛肉をジンジャーガーリックペーストとスパイスでマリネする",
+      "圧力鍋で牛肉を柔らかくなるまで調理する",
+      "牛肉を細かく裂いて取り置く",
+      "ココナッツオイルでタマネギ、カレーリーフ、スパイスを炒める",
+      "細かく裂いた牛肉を加えてカリカリになるまで調理する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "60 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "title": "Mangalorean Chicken Ghee Roast",
+    "title_jp": "マンガロールチキンギーロースト",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "ghee",
+      "spices",
+      "ginger",
+      "garlic",
+      "onion",
+      "curry leaves",
+      "coconut"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "ギー",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "タマネギ",
+      "カレーリーフ",
+      "ココナッツ"
+    ],
+    "instructions": [
+      "Marinate chicken in spiced yogurt mixture",
+      "Prepare Mangalorean spice paste with coconut",
+      "Cook chicken in ghee until golden",
+      "Add spice paste and cook until oil separates",
+      "Garnish with curry leaves and serve hot"
+    ],
+    "instructions_jp": [
+      "鶏肉をスパイス入りヨーグルト混合物でマリネする",
+      "ココナッツでマンガロールスパイスペーストを準備する",
+      "ギーで鶏肉を黄金色になるまで調理する",
+      "スパイスペーストを加えて油が分離するまで調理する",
+      "カレーリーフで飾って熱いうちに提供する"
+    ],
+    "prepTime": "4 hours",
+    "cookTime": "45 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "title": "Kozhi Varuval",
+    "title_jp": "コジバルバル",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "curry leaves",
+      "oil",
+      "pepper"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "カレーリーフ",
+      "オイル",
+      "コショウ"
+    ],
+    "instructions": [
+      "Cut chicken into small pieces",
+      "Marinate with ginger-garlic paste and spices",
+      "Heat oil and add curry leaves",
+      "Add chicken and cook on high heat",
+      "Cook until crispy and golden brown"
+    ],
+    "instructions_jp": [
+      "鶏肉を小さな塊に切る",
+      "ジンジャーガーリックペーストとスパイスでマリネする",
+      "オイルを熱してカレーリーフを加える",
+      "鶏肉を加えて強火で調理する",
+      "カリカリで黄金色になるまで調理する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "title": "Banjara Chicken",
+    "title_jp": "バンジャラチキン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "yogurt",
+      "oil",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "ヨーグルト",
+      "オイル",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Marinate chicken in spiced yogurt",
+      "Sauté onions until golden brown",
+      "Add ginger-garlic paste and cook",
+      "Add marinated chicken and cook through",
+      "Garnish with fresh coriander and serve"
+    ],
+    "instructions_jp": [
+      "鶏肉をスパイス入りヨーグルトでマリネする",
+      "タマネギを黄金色になるまで炒める",
+      "ジンジャーガーリックペーストを加えて調理する",
+      "マリネした鶏肉を加えて完全に調理する",
+      "フレッシュコリアンダーで飾って提供する"
+    ],
+    "prepTime": "2 hours",
+    "cookTime": "35 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "title": "Nalli Nihari",
+    "title_jp": "ナリニハリ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb shanks",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "ghee",
+      "wheat flour",
+      "saffron"
+    ],
+    "ingredients_jp": [
+      "ラムのすね肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "ギー",
+      "小麦粉",
+      "サフラン"
+    ],
+    "instructions": [
+      "Cook lamb shanks with spices until very tender",
+      "Prepare rich gravy with onions and aromatic spices",
+      "Add saffron and cook on low heat",
+      "Thicken with wheat flour paste",
+      "Serve hot with naan bread and garnish"
+    ],
+    "instructions_jp": [
+      "ラムのすね肉をスパイスと一緒に非常に柔らかくなるまで調理する",
+      "タマネギと芳香のあるスパイスでリッチなグレービーを準備する",
+      "サフランを加えて弱火で調理する",
+      "小麦粉ペーストで濃くする",
+      "ナンと一緒に熱いうちに提供し、飾りを付ける"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "6 hours",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "title": "Bhuna Gosht",
+    "title_jp": "ブナゴシュト",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "lamb",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "oil",
+      "tomato",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "ラム肉",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "オイル",
+      "トマト",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Cook lamb pieces until tender",
+      "Sauté onions until golden brown",
+      "Add ginger-garlic paste and spices",
+      "Add tomatoes and cook until soft",
+      "Combine with lamb and cook until gravy thickens"
+    ],
+    "instructions_jp": [
+      "ラム肉の塊を柔らかくなるまで調理する",
+      "タマネギを黄金色になるまで炒める",
+      "ジンジャーガーリックペーストとスパイスを加える",
+      "トマトを加えて柔らかくなるまで調理する",
+      "ラム肉と組み合わせてグレービーが濃くなるまで調理する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "90 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "title": "Shahi Paneer",
+    "title_jp": "シャヒパニール",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "paneer",
+      "onion",
+      "tomato",
+      "cream",
+      "spices",
+      "ginger",
+      "garlic",
+      "cashews"
+    ],
+    "ingredients_jp": [
+      "パニール",
+      "タマネギ",
+      "トマト",
+      "クリーム",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "カシューナッツ"
+    ],
+    "instructions": [
+      "Sauté onions until golden brown",
+      "Add ginger-garlic paste and cook",
+      "Add tomatoes and cook until soft",
+      "Blend with cashews to make smooth gravy",
+      "Add paneer and cream, simmer briefly"
+    ],
+    "instructions_jp": [
+      "タマネギを黄金色になるまで炒める",
+      "ジンジャーガーリックペーストを加えて調理する",
+      "トマトを加えて柔らかくなるまで調理する",
+      "カシューナッツと一緒にブレンドして滑らかなグレービーを作る",
+      "パニールとクリームを加えて短時間煮込む"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "title": "Paneer Butter Masala",
+    "title_jp": "パニールバターマサラ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "paneer",
+      "butter",
+      "tomato",
+      "cream",
+      "spices",
+      "onion",
+      "ginger",
+      "garlic"
+    ],
+    "ingredients_jp": [
+      "パニール",
+      "バター",
+      "トマト",
+      "クリーム",
+      "スパイス",
+      "タマネギ",
+      "ジンジャー",
+      "ニンニク"
+    ],
+    "instructions": [
+      "Sauté onions in butter until soft",
+      "Add ginger-garlic paste and spices",
+      "Add tomatoes and cook until mushy",
+      "Blend to smooth paste and add cream",
+      "Add paneer cubes and simmer gently"
+    ],
+    "instructions_jp": [
+      "バターでタマネギを柔らかくなるまで炒める",
+      "ジンジャーガーリックペーストとスパイスを加える",
+      "トマトを加えてドロドロになるまで調理する",
+      "滑らかなペーストにブレンドしてクリームを加える",
+      "パニールのキューブを加えて優しく煮込む"
+    ],
+    "prepTime": "25 mins",
+    "cookTime": "30 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "title": "Malai Kofta",
+    "title_jp": "マライコフタ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "paneer",
+      "potato",
+      "cashews",
+      "raisins",
+      "spices",
+      "cream",
+      "tomato",
+      "onion"
+    ],
+    "ingredients_jp": [
+      "パニール",
+      "ジャガイモ",
+      "カシューナッツ",
+      "レーズン",
+      "スパイス",
+      "クリーム",
+      "トマト",
+      "タマネギ"
+    ],
+    "instructions": [
+      "Mix paneer, potato, cashews, and raisins",
+      "Shape into balls and deep fry until golden",
+      "Prepare rich gravy with onions and tomatoes",
+      "Add cream and simmer until thick",
+      "Add fried koftas and serve immediately"
+    ],
+    "instructions_jp": [
+      "パニール、ジャガイモ、カシューナッツ、レーズンを混ぜる",
+      "ボールに成形して黄金色になるまで揚げる",
+      "タマネギとトマトでリッチなグレービーを準備する",
+      "クリームを加えて濃くなるまで煮込む",
+      "揚げたコフタを加えてすぐに提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "title": "Kadai Paneer",
+    "title_jp": "カダイパニール",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "paneer",
+      "capsicum",
+      "onion",
+      "tomato",
+      "spices",
+      "ginger",
+      "garlic",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "パニール",
+      "ピーマン",
+      "タマネギ",
+      "トマト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Cut paneer and vegetables into similar sizes",
+      "Sauté onions and capsicum until crisp",
+      "Add ginger-garlic paste and spices",
+      "Add tomatoes and cook until soft",
+      "Add paneer and cook briefly, garnish with coriander"
+    ],
+    "instructions_jp": [
+      "パニールと野菜を同じサイズに切る",
+      "タマネギとピーマンをカリカリになるまで炒める",
+      "ジンジャーガーリックペーストとスパイスを加える",
+      "トマトを加えて柔らかくなるまで調理する",
+      "パニールを加えて短時間調理し、コリアンダーで飾る"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "title": "Bharwa Bhindi",
+    "title_jp": "バルワビンディ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "okra",
+      "onion",
+      "spices",
+      "ginger",
+      "garlic",
+      "oil",
+      "salt",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "オクラ",
+      "タマネギ",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "オイル",
+      "塩",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Make small slits in okra pods",
+      "Stuff with spiced onion mixture",
+      "Heat oil and add stuffed okra",
+      "Cook on medium heat until crispy",
+      "Garnish with fresh coriander and serve"
+    ],
+    "instructions_jp": [
+      "オクラの莢に小さな切り込みを入れる",
+      "スパイス入りタマネギ混合物で詰める",
+      "オイルを熱して詰めたオクラを加える",
+      "カリカリになるまで中火で調理する",
+      "フレッシュコリアンダーで飾って提供する"
+    ],
+    "prepTime": "25 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "title": "Baingan Bharta",
+    "title_jp": "バインガンバルタ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "eggplant",
+      "onion",
+      "tomato",
+      "ginger",
+      "garlic",
+      "spices",
+      "oil",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "ナス",
+      "タマネギ",
+      "トマト",
+      "ジンジャー",
+      "ニンニク",
+      "スパイス",
+      "オイル",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Roast eggplant until charred and soft",
+      "Peel and mash the roasted eggplant",
+      "Sauté onions and ginger-garlic paste",
+      "Add tomatoes and spices, cook until soft",
+      "Mix with mashed eggplant and garnish"
+    ],
+    "instructions_jp": [
+      "ナスを焦げ目がついて柔らかくなるまで焼く",
+      "焼いたナスの皮をむいてつぶす",
+      "タマネギとジンジャーガーリックペーストを炒める",
+      "トマトとスパイスを加えて柔らかくなるまで調理する",
+      "つぶしたナスと混ぜて飾る"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "title": "Dum Aloo Kashmiri",
+    "title_jp": "ダムアールーカシミール",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "potato",
+      "yogurt",
+      "spices",
+      "ginger",
+      "garlic",
+      "onion",
+      "oil",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "ジャガイモ",
+      "ヨーグルト",
+      "スパイス",
+      "ジンジャー",
+      "ニンニク",
+      "タマネギ",
+      "オイル",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Boil small potatoes until tender",
+      "Prick potatoes and shallow fry until golden",
+      "Prepare yogurt-based gravy with spices",
+      "Add potatoes and simmer gently",
+      "Garnish with fresh coriander and serve"
+    ],
+    "instructions_jp": [
+      "小さなジャガイモを柔らかくなるまで茹でる",
+      "ジャガイモに穴を開けて黄金色になるまで浅く揚げる",
+      "スパイスでヨーグルトベースのグレービーを準備する",
+      "ジャガイモを加えて優しく煮込む",
+      "フレッシュコリアンダーで飾って提供する"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "title": "Hyderabadi Chicken Dum Biryani",
+    "title_jp": "ハイデラバディチキンダムビリヤニ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963c8d8?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "chicken",
+      "basmati rice",
+      "onion",
+      "spices",
+      "saffron",
+      "mint",
+      "coriander",
+      "ghee"
+    ],
+    "ingredients_jp": [
+      "鶏肉",
+      "バスマティ米",
+      "タマネギ",
+      "スパイス",
+      "サフラン",
+      "ミント",
+      "コリアンダー",
+      "ギー"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt and spices",
+      "Par-cook rice until 70% done",
+      "Layer rice and chicken in heavy pot",
+      "Add saffron milk and seal with dough",
+      "Cook on low heat for 2 hours until done"
+    ],
+    "instructions_jp": [
+      "鶏肉をヨーグルトとスパイスでマリネする",
+      "米を70%調理されるまで下茹でする",
+      "重い鍋に米と鶏肉を重ねる",
+      "サフラン牛乳を加えて生地で密封する",
+      "調理されるまで2時間弱火で調理する"
+    ],
+    "prepTime": "4 hours",
+    "cookTime": "2 hours",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 35,
+    "title": "Kolkata Biryani",
+    "title_jp": "コルカタビリヤニ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "potato",
+      "basmati rice",
+      "onion",
+      "spices",
+      "saffron",
+      "mint",
+      "cardamom",
+      "ghee"
+    ],
+    "ingredients_jp": [
+      "ジャガイモ",
+      "バスマティ米",
+      "タマネギ",
+      "スパイス",
+      "サフラン",
+      "ミント",
+      "カルダモン",
+      "ギー"
+    ],
+    "instructions": [
+      "Par-cook rice and potatoes separately",
+      "Prepare spiced potato mixture",
+      "Layer rice, potatoes, and aromatic spices",
+      "Add saffron milk and steam",
+      "Serve with boiled eggs and raita"
+    ],
+    "instructions_jp": [
+      "米とジャガイモを別々に下茹でする",
+      "スパイス入りジャガイモ混合物を準備する",
+      "米、ジャガイモ、芳香のあるスパイスを重ねる",
+      "サフラン牛乳を加えて蒸す",
+      "茹で卵とライタと一緒に提供する"
+    ],
+    "prepTime": "2 hours",
+    "cookTime": "1 hour",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 36,
+    "title": "Samosa",
+    "title_jp": "サモサ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "flour",
+      "potato",
+      "peas",
+      "onion",
+      "spices",
+      "oil",
+      "salt",
+      "coriander"
+    ],
+    "ingredients_jp": [
+      "小麦粉",
+      "ジャガイモ",
+      "エンドウ豆",
+      "タマネギ",
+      "スパイス",
+      "オイル",
+      "塩",
+      "コリアンダー"
+    ],
+    "instructions": [
+      "Prepare dough with flour, oil, and salt",
+      "Make spiced potato-pea filling",
+      "Roll dough and fill with mixture",
+      "Shape into triangles and seal edges",
+      "Deep fry until golden and crispy"
+    ],
+    "instructions_jp": [
+      "小麦粉、オイル、塩で生地を準備する",
+      "スパイス入りジャガイモエンドウ豆の具を準備する",
+      "生地を伸ばして具を詰める",
+      "三角形に成形して端を密封する",
+      "黄金色でカリカリになるまで揚げる"
+    ],
+    "prepTime": "45 mins",
+    "cookTime": "20 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "title": "Pav Bhaji",
+    "title_jp": "パウバジ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "mixed vegetables",
+      "onion",
+      "tomato",
+      "spices",
+      "butter",
+      "pav bread",
+      "coriander",
+      "lemon"
+    ],
+    "ingredients_jp": [
+      "ミックス野菜",
+      "タマネギ",
+      "トマト",
+      "スパイス",
+      "バター",
+      "パウパン",
+      "コリアンダー",
+      "レモン"
+    ],
+    "instructions": [
+      "Boil and mash mixed vegetables",
+      "Sauté onions and tomatoes with spices",
+      "Add mashed vegetables and cook",
+      "Toast pav bread with butter",
+      "Serve hot with chopped onions and lemon"
+    ],
+    "instructions_jp": [
+      "ミックス野菜を茹でてつぶす",
+      "タマネギとトマトをスパイスと一緒に炒める",
+      "つぶした野菜を加えて調理する",
+      "バターでパウパンをトーストする",
+      "刻んだタマネギとレモンと一緒に熱いうちに提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "25 mins",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 38,
+    "title": "Gulab Jamun",
+    "title_jp": "グラブジャムン",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "milk powder",
+      "flour",
+      "ghee",
+      "sugar",
+      "cardamom",
+      "saffron",
+      "oil",
+      "rose water"
+    ],
+    "ingredients_jp": [
+      "粉ミルク",
+      "小麦粉",
+      "ギー",
+      "砂糖",
+      "カルダモン",
+      "サフラン",
+      "オイル",
+      "ローズウォーター"
+    ],
+    "instructions": [
+      "Mix milk powder, flour, and ghee to form dough",
+      "Shape into small balls",
+      "Deep fry until golden brown",
+      "Prepare sugar syrup with cardamom and saffron",
+      "Soak fried balls in warm syrup"
+    ],
+    "instructions_jp": [
+      "粉ミルク、小麦粉、ギーを混ぜて生地を作る",
+      "小さなボールに成形する",
+      "黄金色になるまで揚げる",
+      "カルダモンとサフランで砂糖シロップを準備する",
+      "揚げたボールを温かいシロップに浸す"
+    ],
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "title": "Rasgulla",
+    "title_jp": "ラスグッラ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "paneer",
+      "sugar",
+      "cardamom",
+      "rose water",
+      "saffron",
+      "water",
+      "lemon juice"
+    ],
+    "ingredients_jp": [
+      "パニール",
+      "砂糖",
+      "カルダモン",
+      "ローズウォーター",
+      "サフラン",
+      "水",
+      "レモン汁"
+    ],
+    "instructions": [
+      "Knead paneer until smooth",
+      "Shape into small balls",
+      "Prepare sugar syrup with cardamom",
+      "Cook paneer balls in syrup until doubled in size",
+      "Cool and serve chilled"
+    ],
+    "instructions_jp": [
+      "パニールを滑らかになるまでこねる",
+      "小さなボールに成形する",
+      "カルダモンで砂糖シロップを準備する",
+      "パニールボールをサイズが2倍になるまでシロップで調理する",
+      "冷やして冷たく提供する"
+    ],
+    "prepTime": "30 mins",
+    "cookTime": "45 mins",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 40,
+    "title": "Idli",
+    "title_jp": "イドリ",
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "ingredients": [
+      "rice",
+      "urad dal",
+      "fenugreek seeds",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "ingredients_jp": [
+      "米",
+      "ウラッドダル",
+      "フェヌグリークの種",
+      "塩",
+      "水",
+      "オイル"
+    ],
+    "instructions": [
+      "Soak rice and urad dal separately overnight",
+      "Grind to smooth paste with fenugreek seeds",
+      "Mix and ferment for 8-10 hours",
+      "Pour into greased idli molds",
+      "Steam for 10-12 minutes until done"
+    ],
+    "instructions_jp": [
+      "米とウラッドダルを別々に一晩浸す",
+      "フェヌグリークの種と一緒に滑らかなペーストに挽く",
+      "混ぜて8-10時間発酵させる",
+      "油を塗ったイドリ型に注ぐ",
+      "調理されるまで10-12分間蒸す"
+    ],
+    "prepTime": "12 hours",
+    "cookTime": "15 mins",
+    "difficulty": "Medium"
+  }
+]
