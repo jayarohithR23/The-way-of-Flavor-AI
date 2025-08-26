@@ -223,9 +223,12 @@ const RecipeList = ({ ingredients }) => {
                       )}
                     </div>
                     
-                    {/* Ingredients Preview */}
+                    {/* Ingredients Preview (language-aware) */}
                     <div className="flex flex-wrap gap-1 mb-3">
-                      {recipe.ingredients?.slice(0, 3).map((ingredient, index) => (
+                      {(language === 'ja' && Array.isArray(recipe.ingredients_jp) && recipe.ingredients_jp.length > 0
+                        ? recipe.ingredients_jp
+                        : recipe.ingredients
+                      )?.slice(0, 3).map((ingredient, index) => (
                         <span
                           key={index}
                           className="bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs"
@@ -233,10 +236,16 @@ const RecipeList = ({ ingredients }) => {
                           {ingredient}
                         </span>
                       ))}
-                      {recipe.ingredients?.length > 3 && (
-                        <span className="text-gray-500 text-xs">
-                          +{recipe.ingredients.length - 3} more
-                        </span>
+                      {(language === 'ja' && Array.isArray(recipe.ingredients_jp) && recipe.ingredients_jp.length > 3
+                        ? (
+                          <span className="text-gray-500 text-xs">
+                            +{recipe.ingredients_jp.length - 3} 個
+                          </span>
+                        ) : (Array.isArray(recipe.ingredients) && recipe.ingredients.length > 3 ? (
+                          <span className="text-gray-500 text-xs">
+                            +{recipe.ingredients.length - 3} more
+                          </span>
+                        ) : null)
                       )}
                     </div>
                   </div>

@@ -46,7 +46,7 @@
     "title": "Biryani",
     "title_jp": "ビリヤニ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1563379091339-03246963c8d8?w=500&fit=crop&crop=center",
+    "image": "https://thewannabecook.com/wp-content/uploads/2023/06/Chicken-Biryani-Sadia-moon.jpg",
     "ingredients": [
       "rice",
       "chicken",
@@ -59,11 +59,11 @@
     "ingredients_jp": [
       "米",
       "鶏肉",
-      "タマネギ",
-      "スパイス",
-      "サフラン",
-      "ミント",
-      "カルダモン"
+      "玉葱",
+      "香辛料",
+      "番紅花",
+      "薄荷",
+      "小豆蒄"
     ],
     "instructions": [
       "Soak basmati rice for 30 minutes",
@@ -88,7 +88,7 @@
     "title": "Palak Paneer",
     "title_jp": "パラクパニール",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "image": "https://beextravegant.com/wp-content/uploads/2021/08/Palak-paneer-7-edited.jpg",
     "ingredients": [
       "spinach",
       "paneer",
@@ -101,10 +101,10 @@
     "ingredients_jp": [
       "ほうれん草",
       "パニール",
-      "タマネギ",
-      "ニンニク",
-      "スパイス",
-      "ジンジャー",
+      "玉葱",
+      "大蒜",
+      "香辛料",
+      "生姜",
       "クリーム"
     ],
     "instructions": [
@@ -130,7 +130,7 @@
     "title": "Tandoori Chicken",
     "title_jp": "タンドリーチキン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "image": "https://i.pinimg.com/736x/5c/29/32/5c293236309ef9098f58e50f80b94adb.jpg",
     "ingredients": [
       "chicken",
       "yogurt",
@@ -143,11 +143,11 @@
     "ingredients_jp": [
       "鶏肉",
       "ヨーグルト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "レモン",
-      "マスタードオイル"
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "檸檬",
+      "芥子油"
     ],
     "instructions": [
       "Make deep cuts in chicken pieces",
@@ -172,7 +172,7 @@
     "title": "Dal Makhani",
     "title_jp": "ダールマカニ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&fit=crop&crop=center",
+    "image": "https://sinfullyspicy.com/wp-content/uploads/2015/03/1200-by-1200-images-1.jpg",
     "ingredients": [
       "black lentils",
       "kidney beans",
@@ -183,12 +183,12 @@
       "tomato"
     ],
     "ingredients_jp": [
-      "黒レンズ豆",
-      "キドニービーンズ",
+      "黒扁豆",
+      "インゲン豆",
       "バター",
       "クリーム",
-      "スパイス",
-      "タマネギ",
+      "香辛料",
+      "玉葱",
       "トマト"
     ],
     "instructions": [
@@ -214,7 +214,7 @@
     "title": "Naan Bread",
     "title_jp": "ナン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "image": "https://fullofplants.com/wp-content/uploads/2023/05/Homemade-Naan-Bread-Restaurant-Style-Vegan-thumb-1.jpg",
     "ingredients": [
       "flour",
       "yeast",
@@ -226,7 +226,7 @@
     ],
     "ingredients_jp": [
       "小麦粉",
-      "イースト",
+      "酵母",
       "ヨーグルト",
       "牛乳",
       "バター",
@@ -256,7 +256,7 @@
     "title": "Chicken Tikka Masala",
     "title_jp": "チキンティッカマサラ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://dantoombs.com/wp-content/uploads/2025/06/Chicken-tikka-masala-720x720.jpg",
     "ingredients": [
       "chicken",
       "yogurt",
@@ -269,11 +269,11 @@
     "ingredients_jp": [
       "鶏肉",
       "ヨーグルト",
-      "スパイス",
+      "香辛料",
       "トマト",
       "クリーム",
-      "タマネギ",
-      "ニンニク"
+      "玉葱",
+      "大蒜"
     ],
     "instructions": [
       "Marinate chicken in spiced yogurt",
@@ -298,7 +298,7 @@
     "title": "Vegetable Curry",
     "title_jp": "野菜カレー",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "image": "https://greenbowl2soul.com/wp-content/uploads/2021/06/Indian-vegetable-curry.jpg",
     "ingredients": [
       "potato",
       "carrot",
@@ -309,13 +309,13 @@
       "coconut milk"
     ],
     "ingredients_jp": [
-      "ジャガイモ",
-      "ニンジン",
-      "エンドウ豆",
-      "タマネギ",
+      "馬鈴薯",
+      "人参",
+      "豌豆",
+      "玉葱",
       "トマト",
-      "スパイス",
-      "ココナッツミルク"
+      "香辛料",
+      "椰子乳"
     ],
     "instructions": [
       "Chop all vegetables into similar-sized pieces",
@@ -340,7 +340,7 @@
     "title": "Rogan Josh",
     "title_jp": "ローガンジョッシュ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rogan_Josh_Kashmiri.jpg/1200px-Rogan_Josh_Kashmiri.jpg",
     "ingredients": [
       "lamb",
       "onion",
@@ -352,12 +352,12 @@
     ],
     "ingredients_jp": [
       "ラム肉",
-      "タマネギ",
-      "スパイス",
+      "玉葱",
+      "香辛料",
       "ヨーグルト",
       "トマト",
-      "ジンジャー",
-      "ニンニク"
+      "生姜",
+      "大蒜"
     ],
     "instructions": [
       "Marinate lamb in yogurt and spices",
@@ -382,7 +382,7 @@
     "title": "Aloo Gobi",
     "title_jp": "アールーゴビ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/aloo-gobi-recipe.jpg",
     "ingredients": [
       "potato",
       "cauliflower",
@@ -393,13 +393,13 @@
       "coriander"
     ],
     "ingredients_jp": [
-      "ジャガイモ",
-      "カリフラワー",
-      "タマネギ",
-      "スパイス",
-      "ターメリック",
-      "クミン",
-      "コリアンダー"
+      "馬鈴薯",
+      "花椰菜",
+      "玉葱",
+      "香辛料",
+      "鬱金",
+      "孜然",
+      "香菜"
     ],
     "instructions": [
       "Cut potatoes and cauliflower into florets",
@@ -424,7 +424,7 @@
     "title": "Chicken Seekh Kebab",
     "title_jp": "チキンシークケバブ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "image": "https://spicecravings.com/wp-content/uploads/2021/03/Chicken-Seekh-Kebab-Featured-1.jpg",
     "ingredients": [
       "chicken mince",
       "onion",
@@ -436,13 +436,13 @@
       "egg"
     ],
     "ingredients_jp": [
-      "鶏ひき肉",
-      "タマネギ",
-      "ジンジャー",
-      "ニンニク",
-      "スパイス",
-      "コリアンダー",
-      "ミント",
+      "鶏挽肉",
+      "玉葱",
+      "生姜",
+      "大蒜",
+      "香辛料",
+      "香菜",
+      "薄荷",
       "卵"
     ],
     "instructions": [
@@ -468,7 +468,7 @@
     "title": "Mutton Seekh Kebab",
     "title_jp": "マトンシークケバブ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Seekh-Kebab.jpg",
     "ingredients": [
       "mutton mince",
       "onion",
@@ -480,13 +480,13 @@
       "egg"
     ],
     "ingredients_jp": [
-      "マトンひき肉",
-      "タマネギ",
-      "ジンジャー",
-      "ニンニク",
-      "スパイス",
-      "コリアンダー",
-      "ミント",
+      "羊挽肉",
+      "玉葱",
+      "生姜",
+      "大蒜",
+      "香辛料",
+      "香菜",
+      "薄荷",
       "卵"
     ],
     "instructions": [
@@ -512,7 +512,7 @@
     "title": "Boti Kebab",
     "title_jp": "ボティケバブ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "image": "https://www.thespruceeats.com/thmb/d3dydMavjnQGJh1dsCsPzNkkrB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tikka-boti-kabobs-333771-Hero_01-ddffd2bce19a42138c26415446022280.jpg",
     "ingredients": [
       "lamb pieces",
       "yogurt",
@@ -525,11 +525,11 @@
     "ingredients_jp": [
       "ラム肉の塊",
       "ヨーグルト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "タマネギ",
-      "レモン汁"
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "玉葱",
+      "檸檬汁"
     ],
     "instructions": [
       "Cut lamb into small, uniform pieces",
@@ -554,7 +554,7 @@
     "title": "Shami Kebab",
     "title_jp": "シャミケバブ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://sinfullyspicy.com/wp-content/uploads/2023/04/1200-by-1200-images-3-2.jpg",
     "ingredients": [
       "lamb mince",
       "chana dal",
@@ -565,12 +565,12 @@
       "egg"
     ],
     "ingredients_jp": [
-      "ラムひき肉",
+      "羊挽肉",
       "チャナダル",
-      "タマネギ",
-      "ジンジャー",
-      "ニンニク",
-      "スパイス",
+      "玉葱",
+      "生姜",
+      "大蒜",
+      "香辛料",
       "卵"
     ],
     "instructions": [
@@ -596,7 +596,7 @@
     "title": "Galouti Kebab",
     "title_jp": "ガラウティケバブ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&fit=crop&crop=center",
+    "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2023/02/galouti-kebab-1.jpg",
     "ingredients": [
       "lamb mince",
       "papaya paste",
@@ -607,12 +607,12 @@
       "ghee"
     ],
     "ingredients_jp": [
-      "ラムひき肉",
-      "パパイヤペースト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "タマネギ",
+      "羊挽肉",
+      "木瓜ペースト",
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "玉葱",
       "ギー"
     ],
     "instructions": [
@@ -638,7 +638,7 @@
     "title": "Haleem",
     "title_jp": "ハリーム",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "image": "https://static01.nyt.com/images/2025/03/24/multimedia/ZS-Haleem-plhg/ZS-Haleem-plhg-mediumSquareAt3X.jpg",
     "ingredients": [
       "lamb",
       "wheat",
@@ -652,11 +652,11 @@
     "ingredients_jp": [
       "ラム肉",
       "小麦",
-      "レンズ豆",
-      "スパイス",
-      "タマネギ",
-      "ジンジャー",
-      "ニンニク",
+      "扁豆",
+      "香辛料",
+      "玉葱",
+      "生姜",
+      "大蒜",
       "ギー"
     ],
     "instructions": [
@@ -682,7 +682,7 @@
     "title": "Chicken Changezi",
     "title_jp": "チキンチャンゲジ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.cookwithnabeela.com/wp-content/uploads/2024/05/ChickenChangezi-500x500.webp",
     "ingredients": [
       "chicken",
       "onion",
@@ -695,11 +695,11 @@
     ],
     "ingredients_jp": [
       "鶏肉",
-      "タマネギ",
+      "玉葱",
       "トマト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "ヨーグルト",
       "クリーム"
     ],
@@ -726,7 +726,7 @@
     "title": "Hyderabadi Dum Ka Chicken",
     "title_jp": "ハイデラバディダムカチキン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://khinskitchen.com/wp-content/uploads/2022/05/Hyderabadi-chicken-04-500x375.jpg",
     "ingredients": [
       "chicken",
       "onion",
@@ -739,13 +739,13 @@
     ],
     "ingredients_jp": [
       "鶏肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "ヨーグルト",
       "ギー",
-      "サフラン"
+      "番紅花"
     ],
     "instructions": [
       "Marinate chicken in yogurt and aromatic spices",
@@ -770,7 +770,7 @@
     "title": "Rara Mutton",
     "title_jp": "ララマトン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "image": "https://www.licious.in/blog/wp-content/uploads/2022/04/Rara-Ghosht_24339-min-600x600.jpg",
     "ingredients": [
       "mutton",
       "onion",
@@ -783,13 +783,13 @@
     ],
     "ingredients_jp": [
       "マトン",
-      "タマネギ",
+      "玉葱",
       "トマト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "ギー",
-      "コリアンダー"
+      "香菜"
     ],
     "instructions": [
       "Cook mutton pieces until tender",
@@ -814,7 +814,7 @@
     "title": "Paya Soup",
     "title_jp": "パヤスープ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "",
     "ingredients": [
       "goat trotters",
       "onion",
@@ -826,10 +826,10 @@
     ],
     "ingredients_jp": [
       "ヤギの足",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "小麦粉",
       "ギー"
     ],
@@ -856,7 +856,7 @@
     "title": "Kerala Beef Fry",
     "title_jp": "ケララビーフフライ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDfO_QSWBm4j6s8EZgYRWEqFnan0mJZYZEeLRNdBi_JnBSf5KBdzUNmv12E-YhF6svnw7qfZBRgc7lB-IhAtWHROR30dNwt6ku_R6Jn0iYGgdDs2Ibf41wPSFmi-sXM8CjAvfnynwyVhk/s1600/beef+fry+1i.JPG",
     "ingredients": [
       "beef",
       "onion",
@@ -869,13 +869,13 @@
     ],
     "ingredients_jp": [
       "牛肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "カレーリーフ",
-      "ココナッツオイル",
-      "コショウ"
+      "椰子油",
+      "胡椒"
     ],
     "instructions": [
       "Marinate beef with ginger-garlic paste and spices",
@@ -900,7 +900,7 @@
     "title": "Mangalorean Chicken Ghee Roast",
     "title_jp": "マンガロールチキンギーロースト",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://bonmasala.com/wp-content/uploads/2022/05/chicken-ghee-roast.jpg",
     "ingredients": [
       "chicken",
       "ghee",
@@ -914,10 +914,10 @@
     "ingredients_jp": [
       "鶏肉",
       "ギー",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "タマネギ",
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "玉葱",
       "カレーリーフ",
       "ココナッツ"
     ],
@@ -944,7 +944,7 @@
     "title": "Kozhi Varuval",
     "title_jp": "コジバルバル",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://images.archanaskitchen.com/images/recipes/indian/main-course/indian-non-veg-recipes/fish-recipes/Chettinadu_Kozhi_Varuval_6162b80418.jpg",
     "ingredients": [
       "chicken",
       "onion",
@@ -957,13 +957,13 @@
     ],
     "ingredients_jp": [
       "鶏肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "カレーリーフ",
-      "オイル",
-      "コショウ"
+      "油",
+      "胡椒"
     ],
     "instructions": [
       "Cut chicken into small pieces",
@@ -988,7 +988,7 @@
     "title": "Banjara Chicken",
     "title_jp": "バンジャラチキン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://images.archanaskitchen.com/images/recipes/indian/main-course/indian-non-veg-recipes/fish-recipes/Chettinadu_Kozhi_Varuval_6162b80418.jpg",
     "ingredients": [
       "chicken",
       "onion",
@@ -1001,13 +1001,13 @@
     ],
     "ingredients_jp": [
       "鶏肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "ヨーグルト",
-      "オイル",
-      "コリアンダー"
+      "油",
+      "香菜"
     ],
     "instructions": [
       "Marinate chicken in spiced yogurt",
@@ -1032,7 +1032,7 @@
     "title": "Nalli Nihari",
     "title_jp": "ナリニハリ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&fit=crop&crop=center",
+    "image": "https://i.ndtvimg.com/i/2017-06/nihari_650x400_81498470650.jpg",
     "ingredients": [
       "lamb shanks",
       "onion",
@@ -1045,13 +1045,13 @@
     ],
     "ingredients_jp": [
       "ラムのすね肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
       "ギー",
       "小麦粉",
-      "サフラン"
+      "番紅花"
     ],
     "instructions": [
       "Cook lamb shanks with spices until very tender",
@@ -1076,7 +1076,7 @@
     "title": "Bhuna Gosht",
     "title_jp": "ブナゴシュト",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Bhuna.jpg",
     "ingredients": [
       "lamb",
       "onion",
@@ -1089,13 +1089,13 @@
     ],
     "ingredients_jp": [
       "ラム肉",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "オイル",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "油",
       "トマト",
-      "コリアンダー"
+      "香菜"
     ],
     "instructions": [
       "Cook lamb pieces until tender",
@@ -1120,7 +1120,7 @@
     "title": "Shahi Paneer",
     "title_jp": "シャヒパニール",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "image": "https://i.ytimg.com/vi/ho3gNdJ9QZI/maxresdefault.jpg",
     "ingredients": [
       "paneer",
       "onion",
@@ -1133,13 +1133,13 @@
     ],
     "ingredients_jp": [
       "パニール",
-      "タマネギ",
+      "玉葱",
       "トマト",
       "クリーム",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "カシューナッツ"
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "腰果"
     ],
     "instructions": [
       "Sauté onions until golden brown",
@@ -1164,7 +1164,7 @@
     "title": "Paneer Butter Masala",
     "title_jp": "パニールバターマサラ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2GVSX6yMjCLHtHBaQwyqjUw1rkC1sF9H8g&s",
     "ingredients": [
       "paneer",
       "butter",
@@ -1180,10 +1180,10 @@
       "バター",
       "トマト",
       "クリーム",
-      "スパイス",
-      "タマネギ",
-      "ジンジャー",
-      "ニンニク"
+      "香辛料",
+      "玉葱",
+      "生姜",
+      "大蒜"
     ],
     "instructions": [
       "Sauté onions in butter until soft",
@@ -1208,7 +1208,7 @@
     "title": "Malai Kofta",
     "title_jp": "マライコフタ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&fit=crop&crop=center",
+    "image": "https://carveyourcraving.com/wp-content/uploads/2021/09/Best-Malai-Kofta-recipe.jpg",
     "ingredients": [
       "paneer",
       "potato",
@@ -1221,13 +1221,13 @@
     ],
     "ingredients_jp": [
       "パニール",
-      "ジャガイモ",
-      "カシューナッツ",
-      "レーズン",
-      "スパイス",
+      "馬鈴薯",
+      "腰果",
+      "干し葡萄",
+      "香辛料",
       "クリーム",
       "トマト",
-      "タマネギ"
+      "玉葱"
     ],
     "instructions": [
       "Mix paneer, potato, cashews, and raisins",
@@ -1252,7 +1252,7 @@
     "title": "Kadai Paneer",
     "title_jp": "カダイパニール",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/03/Best-Kadai-Paneer-Recipe.jpg",
     "ingredients": [
       "paneer",
       "capsicum",
@@ -1265,13 +1265,13 @@
     ],
     "ingredients_jp": [
       "パニール",
-      "ピーマン",
-      "タマネギ",
+      "甘椒",
+      "玉葱",
       "トマト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "コリアンダー"
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "香菜"
     ],
     "instructions": [
       "Cut paneer and vegetables into similar sizes",
@@ -1296,7 +1296,7 @@
     "title": "Bharwa Bhindi",
     "title_jp": "バルワビンディ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "image": "https://vegecravings.com/wp-content/uploads/2016/12/bharwa-bhindi-recipe-step-by-step-instructions.jpg",
     "ingredients": [
       "okra",
       "onion",
@@ -1308,14 +1308,14 @@
       "coriander"
     ],
     "ingredients_jp": [
-      "オクラ",
-      "タマネギ",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "オイル",
+      "秋葵",
+      "玉葱",
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "油",
       "塩",
-      "コリアンダー"
+      "香菜"
     ],
     "instructions": [
       "Make small slits in okra pods",
@@ -1340,7 +1340,7 @@
     "title": "Baingan Bharta",
     "title_jp": "バインガンバルタ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/baingan-bharta.jpg",
     "ingredients": [
       "eggplant",
       "onion",
@@ -1352,14 +1352,14 @@
       "coriander"
     ],
     "ingredients_jp": [
-      "ナス",
-      "タマネギ",
+      "茄子",
+      "玉葱",
       "トマト",
-      "ジンジャー",
-      "ニンニク",
-      "スパイス",
-      "オイル",
-      "コリアンダー"
+      "生姜",
+      "大蒜",
+      "香辛料",
+      "油",
+      "香菜"
     ],
     "instructions": [
       "Roast eggplant until charred and soft",
@@ -1384,7 +1384,7 @@
     "title": "Dum Aloo Kashmiri",
     "title_jp": "ダムアールーカシミール",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&fit=crop&crop=center",
+    "image": "https://binjalsvegkitchen.com/wp-content/uploads/2015/01/Kashmiri-Dum-Aloo-H1.jpg",
     "ingredients": [
       "potato",
       "yogurt",
@@ -1396,14 +1396,14 @@
       "coriander"
     ],
     "ingredients_jp": [
-      "ジャガイモ",
+      "馬鈴薯",
       "ヨーグルト",
-      "スパイス",
-      "ジンジャー",
-      "ニンニク",
-      "タマネギ",
-      "オイル",
-      "コリアンダー"
+      "香辛料",
+      "生姜",
+      "大蒜",
+      "玉葱",
+      "油",
+      "香菜"
     ],
     "instructions": [
       "Boil small potatoes until tender",
@@ -1428,7 +1428,7 @@
     "title": "Hyderabadi Chicken Dum Biryani",
     "title_jp": "ハイデラバディチキンダムビリヤニ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1563379091339-03246963c8d8?w=500&fit=crop&crop=center",
+    "image": "https://www.cookwithkushi.com/wp-content/uploads/2023/10/best_simple_easy_chicken_dum_biryani.jpg",
     "ingredients": [
       "chicken",
       "basmati rice",
@@ -1442,11 +1442,11 @@
     "ingredients_jp": [
       "鶏肉",
       "バスマティ米",
-      "タマネギ",
-      "スパイス",
-      "サフラン",
-      "ミント",
-      "コリアンダー",
+      "玉葱",
+      "香辛料",
+      "番紅花",
+      "薄荷",
+      "香菜",
       "ギー"
     ],
     "instructions": [
@@ -1472,7 +1472,7 @@
     "title": "Kolkata Biryani",
     "title_jp": "コルカタビリヤニ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/2595/6dc6c93ebf299784dc21a5fb3e5844df.jpg",
     "ingredients": [
       "potato",
       "basmati rice",
@@ -1484,13 +1484,13 @@
       "ghee"
     ],
     "ingredients_jp": [
-      "ジャガイモ",
+      "馬鈴薯",
       "バスマティ米",
-      "タマネギ",
-      "スパイス",
-      "サフラン",
-      "ミント",
-      "カルダモン",
+      "玉葱",
+      "香辛料",
+      "番紅花",
+      "薄荷",
+      "小豆蒄",
       "ギー"
     ],
     "instructions": [
@@ -1516,7 +1516,7 @@
     "title": "Samosa",
     "title_jp": "サモサ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "image": "https://www.teaforturmeric.com/wp-content/uploads/2025/02/Keema-Samosa-05.jpg",
     "ingredients": [
       "flour",
       "potato",
@@ -1529,13 +1529,13 @@
     ],
     "ingredients_jp": [
       "小麦粉",
-      "ジャガイモ",
-      "エンドウ豆",
-      "タマネギ",
-      "スパイス",
-      "オイル",
+      "馬鈴薯",
+      "豌豆",
+      "玉葱",
+      "香辛料",
+      "油",
       "塩",
-      "コリアンダー"
+      "香菜"
     ],
     "instructions": [
       "Prepare dough with flour, oil, and salt",
@@ -1560,7 +1560,7 @@
     "title": "Pav Bhaji",
     "title_jp": "パウバジ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2018/05/Best-Pav-Bhaji-Recipe.jpg",
     "ingredients": [
       "mixed vegetables",
       "onion",
@@ -1572,14 +1572,14 @@
       "lemon"
     ],
     "ingredients_jp": [
-      "ミックス野菜",
-      "タマネギ",
+      "混合野菜",
+      "玉葱",
       "トマト",
-      "スパイス",
+      "香辛料",
       "バター",
       "パウパン",
-      "コリアンダー",
-      "レモン"
+      "香菜",
+      "檸檬"
     ],
     "instructions": [
       "Boil and mash mixed vegetables",
@@ -1604,7 +1604,7 @@
     "title": "Gulab Jamun",
     "title_jp": "グラブジャムン",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "image": "https://bakewithzoha.com/wp-content/uploads/2023/04/gulab-jamun-featured.jpg",
     "ingredients": [
       "milk powder",
       "flour",
@@ -1616,14 +1616,14 @@
       "rose water"
     ],
     "ingredients_jp": [
-      "粉ミルク",
+      "粉乳",
       "小麦粉",
       "ギー",
       "砂糖",
-      "カルダモン",
-      "サフラン",
-      "オイル",
-      "ローズウォーター"
+      "小豆蒄",
+      "番紅花",
+      "油",
+      "薔薇水"
     ],
     "instructions": [
       "Mix milk powder, flour, and ghee to form dough",
@@ -1648,7 +1648,7 @@
     "title": "Rasgulla",
     "title_jp": "ラスグッラ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&fit=crop&crop=center",
+    "image": "https://www.chezshuchi.com/images/rasgulla11.JPG",
     "ingredients": [
       "paneer",
       "sugar",
@@ -1661,11 +1661,11 @@
     "ingredients_jp": [
       "パニール",
       "砂糖",
-      "カルダモン",
-      "ローズウォーター",
-      "サフラン",
+      "小豆蒄",
+      "薔薇水",
+      "番紅花",
       "水",
-      "レモン汁"
+      "檸檬汁"
     ],
     "instructions": [
       "Knead paneer until smooth",
@@ -1690,7 +1690,7 @@
     "title": "Idli",
     "title_jp": "イドリ",
     "cuisine": "Indian",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&fit=crop&crop=center",
+    "image": "https://t3.ftcdn.net/jpg/03/62/02/26/360_F_362022640_fZ6UM0JycJlFDdBiR1pYlNddKfdGvYwR.jpg",
     "ingredients": [
       "rice",
       "urad dal",
@@ -1702,10 +1702,10 @@
     "ingredients_jp": [
       "米",
       "ウラッドダル",
-      "フェヌグリークの種",
+      "胡芦巴の種",
       "塩",
       "水",
-      "オイル"
+      "油"
     ],
     "instructions": [
       "Soak rice and urad dal separately overnight",

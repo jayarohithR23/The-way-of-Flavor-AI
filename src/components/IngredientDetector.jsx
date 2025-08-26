@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { useLanguage } from '../contexts/LanguageContext';
 import axios from 'axios';
@@ -6,10 +6,11 @@ import toast from 'react-hot-toast';
 import { Upload, Camera, Loader, CheckCircle, X } from 'lucide-react';
 
 const IngredientDetector = ({ onIngredientsDetected }) => {
-  const { getText } = useLanguage();
+  const { getText, language } = useLanguage();
   const [isProcessing, setIsProcessing] = useState(false);
   const [detectedIngredients, setDetectedIngredients] = useState([]);
   const [previewImage, setPreviewImage] = useState(null);
+  const [lastDetected, setLastDetected] = useState({ en: [], jp: [], confidence: null });
 
   const onDrop = useCallback(async (acceptedFiles) => {
     const file = acceptedFiles[0];
@@ -39,30 +40,84 @@ const IngredientDetector = ({ onIngredientsDetected }) => {
       const formData = new FormData();
       formData.append('image', file);
 
-      const response = await axios.post('/api/detect-ingredients', formData, {
+      // Call Gemini-backed endpoint only
+      const response = await axios.post('/api/detect', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
       });
 
-      const { ingredients, confidence } = response.data;
-      setDetectedIngredients(ingredients);
-      onIngredientsDetected(ingredients);
+      // Normalize response
+      const { ingredients_jp, ingredients_en, ingredients, confidence, source } = response.data || {};
+
+      if (source === 'fallback') {
+        toast.error(
+          getText(
+            'AI detection is unavailable right now. Please check API key/server and try again.',
+            '現在AI検出を利用できません。APIキー/サーバー設定を確認して再試行してください。'
+          )
+        );
+        setDetectedIngredients([]);
+        onIngredientsDetected([]);
+        return;
+      }
+
+      // Respect UI language: prefer English when language==='en', else Japanese
+      let detected = [];
+      if (language === 'en') {
+        detected = Array.isArray(ingredients_en) && ingredients_en.length > 0
+          ? ingredients_en
+          : Array.isArray(ingredients_jp) && ingredients_jp.length > 0
+            ? ingredients_jp
+            : Array.isArray(ingredients) && ingredients.length > 0
+              ? ingredients
+              : [];
+      } else {
+        detected = Array.isArray(ingredients_jp) && ingredients_jp.length > 0
+          ? ingredients_jp
+          : Array.isArray(ingredients_en) && ingredients_en.length > 0
+            ? ingredients_en
+            : Array.isArray(ingredients) && ingredients.length > 0
+              ? ingredients
+              : [];
+      }
+
+      setLastDetected({
+        en: Array.isArray(ingredients_en) ? ingredients_en : [],
+        jp: Array.isArray(ingredients_jp) ? ingredients_jp : [],
+        confidence: confidence ?? null,
+      });
+
+      if (detected.length === 0) {
+        toast.error(
+          getText(
+            'No ingredients detected. Try another photo or better lighting.',
+            '材料が検出されませんでした。別の写真や明るい場所でお試しください。'
+          )
+        );
+      }
+
+      setDetectedIngredients(detected);
+      onIngredientsDetected(detected);
       
-      toast.success(
-        getText(
-          `Detected ${ingredients.length} ingredients with ${Math.round(confidence * 100)}% confidence`,
-          `${ingredients.length}個の材料を${Math.round(confidence * 100)}%の信頼度で検出しました`
-        )
-      );
+      if (detected.length > 0) {
+        toast.success(
+          getText(
+            `Detected ${detected.length} ingredients${confidence != null ? ` with ${Math.round((confidence || 0) * 100)}% confidence` : ''}`,
+            `${detected.length}個の材料${confidence != null ? `（信頼度${Math.round((confidence || 0) * 100)}%）` : ''}を検出しました`
+          )
+        );
+      }
     } catch (error) {
       console.error('Ingredient detection failed:', error);
       toast.error(
         getText(
-          'Failed to detect ingredients. Please try again.',
-          '材料の検出に失敗しました。もう一度お試しください。'
+          'Failed to detect ingredients. Please check the server and try again.',
+          '材料の検出に失敗しました。サーバー設定を確認してもう一度お試しください。'
         )
       );
+      setDetectedIngredients([]);
+      onIngredientsDetected([]);
     } finally {
       setIsProcessing(false);
     }
@@ -94,6 +149,16 @@ const IngredientDetector = ({ onIngredientsDetected }) => {
     setPreviewImage(null);
     onIngredientsDetected([]);
   };
+
+  // When UI language changes, switch the displayed chips to the saved language list
+  useEffect(() => {
+    if (!lastDetected) return;
+    const target = language === 'en' ? lastDetected.en : lastDetected.jp;
+    if (Array.isArray(target) && target.length > 0) {
+      setDetectedIngredients(target);
+      onIngredientsDetected(target);
+    }
+  }, [language]);
 
   return (
     <div className="space-y-4">

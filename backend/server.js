@@ -3,7 +3,7 @@ import cors from 'cors';
 import multer from 'multer';
 import axios from 'axios';
 import { MongoClient } from 'mongodb';
-import OpenAI from 'openai';
+// import OpenAI from 'openai'; // removed
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -45,10 +45,10 @@ async function connectDB() {
   }
 }
 
-// OpenAI configuration
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// OpenAI configuration (removed)
+// const openai = new OpenAI({
+//   apiKey: process.env.OPENAI_API_KEY,
+// });
 
 // Initialize sample Indian recipes
 async function initializeRecipes() {
@@ -152,6 +152,141 @@ app.get('/api/recipes/reload', async (req, res) => {
   }
 });
 
+// Ingredient mapping for search (katakana ↔ kanji)
+const ingredientMapping = {
+  // Vegetables and fruits
+  "トマト": "蕃茄",
+  "蕃茄": "トマト",
+  "ジャガイモ": "馬鈴薯",
+  "馬鈴薯": "ジャガイモ",
+  "ニンジン": "人参",
+  "人参": "ニンジン",
+  "タマネギ": "玉葱",
+  "玉葱": "タマネギ",
+  "ニンニク": "大蒜",
+  "大蒜": "ニンニク",
+  "ジンジャー": "生姜",
+  "生姜": "ジンジャー",
+  "カリフラワー": "花椰菜",
+  "花椰菜": "カリフラワー",
+  "エンドウ豆": "豌豆",
+  "豌豆": "エンドウ豆",
+  "オクラ": "秋葵",
+  "秋葵": "オクラ",
+  "ナス": "茄子",
+  "茄子": "ナス",
+  "ピーマン": "甘椒",
+  "甘椒": "ピーマン",
+  "ほうれん草": "菠薐草",
+  "菠薐草": "ほうれん草",
+  
+  // Proteins (added whole chicken mapping)
+  "丸鶏": "鶏肉",
+  "鶏肉": "丸鶏",
+  
+  // Spices and seasonings
+  "スパイス": "香辛料",
+  "香辛料": "スパイス",
+  "サフラン": "番紅花",
+  "番紅花": "サフラン",
+  "ミント": "薄荷",
+  "薄荷": "ミント",
+  "カルダモン": "小豆蒄",
+  "小豆蒄": "カルダモン",
+  "ターメリック": "鬱金",
+  "鬱金": "ターメリック",
+  "クミン": "孜然",
+  "孜然": "クミン",
+  "コリアンダー": "香菜",
+  "香菜": "コリアンダー",
+  "コショウ": "胡椒",
+  "胡椒": "コショウ",
+  
+  // Grains and legumes
+  "レンズ豆": "扁豆",
+  "扁豆": "レンズ豆",
+  "黒レンズ豆": "黒扁豆",
+  "黒扁豆": "黒レンズ豆",
+  "キドニービーンズ": "インゲン豆",
+  "インゲン豆": "キドニービーンズ",
+  
+  // Other ingredients
+  "イースト": "酵母",
+  "酵母": "イースト",
+  "オイル": "油",
+  "油": "オイル",
+  "マスタードオイル": "芥子油",
+  "芥子油": "マスタードオイル",
+  "ココナッツオイル": "椰子油",
+  "椰子油": "ココナッツオイル",
+  "ココナッツミルク": "椰子乳",
+  "椰子乳": "ココナッツミルク",
+  "レモン": "檸檬",
+  "檸檬": "レモン",
+  "レモン汁": "檸檬汁",
+  "檸檬汁": "レモン汁",
+  "粉ミルク": "粉乳",
+  "粉乳": "粉ミルク",
+  "ローズウォーター": "薔薇水",
+  "薔薇水": "ローズウォーター",
+  "パパイヤペースト": "木瓜ペースト",
+  "木瓜ペースト": "パパイヤペースト",
+  "カシューナッツ": "腰果",
+  "腰果": "カシューナッツ",
+  "レーズン": "干し葡萄",
+  "干し葡萄": "レーズン",
+  "ミックス野菜": "混合野菜",
+  "混合野菜": "ミックス野菜",
+  "フェヌグリークの種": "胡芦巴の種",
+  "胡芦巴の種": "フェヌグリークの種"
+};
+
+// Normalize common English synonyms from detectors
+function normalizeEnglish(terms = []) {
+  return terms.map(t => {
+    const s = (t || '').toLowerCase().trim();
+    if (s === 'whole chicken' || s === 'chicken (whole)') return 'chicken';
+    if (s === 'bell pepper' || s === 'capsicum') return 'bell pepper';
+    return s;
+  });
+}
+
+// Basic English -> Japanese mapping for display/search fallbacks
+const englishToJapanese = {
+  'rice': '米',
+  'chicken': '鶏肉',
+  'onion': '玉葱',
+  'tomato': 'トマト',
+  'garlic': 'ニンニク',
+  'ginger': '生姜',
+  'potato': '馬鈴薯',
+  'cauliflower': '花椰菜',
+  'bell pepper': 'ピーマン',
+  'pepper': '胡椒',
+  'coriander': '香菜',
+  'cilantro': '香菜',
+  'yogurt': 'ヨーグルト',
+  'cream': 'クリーム',
+  'butter': 'バター',
+  'mint': '薄荷',
+  'cardamom': '小豆蒄',
+  'saffron': '番紅花',
+  'cumin': '孜然',
+  'turmeric': '鬱金',
+  'lentil': '扁豆',
+  'lentils': '扁豆',
+};
+
+function mapEnglishToJapanese(terms = []) {
+  const out = new Set();
+  for (const t of terms) {
+    const s = (t || '').toLowerCase().trim();
+    if (!s) continue;
+    if (englishToJapanese[s]) out.add(englishToJapanese[s]);
+  }
+  return Array.from(out);
+}
+
 // Search recipes by ingredients
 app.get('/api/recipes/search', async (req, res) => {
   try {
@@ -160,12 +295,31 @@ app.get('/api/recipes/search', async (req, res) => {
       return res.status(400).json({ error: 'Ingredients parameter is required' });
     }
 
-    const ingredientList = ingredients.split(',').map(i => i.trim().toLowerCase());
+    // Support both standard comma and Japanese comma '、'
+    const rawParts = ingredients
+      .split(/[,、]/)
+      .map(i => i.trim())
+      .filter(Boolean);
+
+    // English list is lowercased; Japanese terms are kept as-is
+    const englishList = rawParts.map(i => i.toLowerCase());
     
-    // Search in local Indian recipes
+    // Create Japanese search list with both original terms and mapped equivalents
+    const japaneseList = [];
+    rawParts.forEach(term => {
+      japaneseList.push(term); // Add original term
+      if (ingredientMapping[term]) {
+        japaneseList.push(ingredientMapping[term]); // Add mapped equivalent
+      }
+    });
+
+    // Search in local Indian recipes across both English and Japanese ingredient fields
     const recipesCollection = db.collection('recipes');
     let localRecipes = await recipesCollection.find({
-      ingredients: { $in: ingredientList }
+      $or: [
+        { ingredients: { $in: englishList } },
+        { ingredients_jp: { $in: japaneseList } }
+      ]
     }).toArray();
 
     // External recipes toggle (default disabled)
@@ -173,9 +327,9 @@ app.get('/api/recipes/search', async (req, res) => {
 
     // Also search in external API for additional recipes (optional)
     let externalRecipes = [];
-    if (externalEnabled && ingredientList.length > 0) {
+    if (externalEnabled && rawParts.length > 0) {
       try {
-        const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredientList[0]}`);
+        const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${encodeURIComponent(rawParts[0])}`);
         const externalMeals = response.data.meals || [];
         
         externalRecipes = externalMeals.slice(0, 5).map(meal => ({
@@ -184,8 +338,8 @@ app.get('/api/recipes/search', async (req, res) => {
           title_jp: meal.strMeal, // Will be translated later
           cuisine: 'International',
           image: meal.strMealThumb,
-          ingredients: [ingredientList[0]], // Simplified for external
-          ingredients_jp: [ingredientList[0]], // Will be translated later
+          ingredients: [rawParts[0].toLowerCase()], // Simplified for external
+          ingredients_jp: [rawParts[0]], // Will be translated later
           instructions: ['Recipe instructions available on TheMealDB website'],
           instructions_jp: ['レシピの手順はTheMealDBウェブサイトでご確認ください'],
           prepTime: 'Unknown',
@@ -337,27 +491,15 @@ async function analyzeImageLocally(imageBuffer) {
   }
 }
 
-// Translate text using OpenAI
+// Translate text (no-op: returns input as-is to avoid OpenAI dependency)
 app.post('/api/translate', async (req, res) => {
   try {
-    const { text, targetLanguage } = req.body;
-    
-    if (!text || !targetLanguage) {
-      return res.status(400).json({ error: 'Text and target language are required' });
+    const { text } = req.body || {};
+    if (!text || String(text).trim() === '') {
+      return res.status(400).json({ error: 'Text is required' });
     }
-
-    const prompt = `Translate the following text to ${targetLanguage === 'ja' ? 'Japanese' : 'English'}. Only return the translation, nothing else:\n\n${text}`;
-    
-    const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [{ role: "user", content: prompt }],
-      max_tokens: 500,
-    });
-
-    const translation = completion.choices[0].message.content.trim();
-    res.json({ translation });
+    res.json({ translation: String(text) });
   } catch (error) {
-    console.error('Translation error:', error);
     res.status(500).json({ error: 'Translation failed' });
   }
 });
@@ -399,6 +541,92 @@ app.post('/api/detect-ingredients', upload.single('image'), async (req, res) => 
       confidence: 0.75,
       source: 'Fallback detection',
       error: 'AI detection temporarily unavailable'
+    });
+  }
+});
+
+// Gemini Vision detection endpoint
+app.post('/api/detect', upload.single('image'), async (req, res) => {
+  try {
+    if (!req.file) {
+      return res.status(400).json({ error: 'No image file provided' });
+    }
+
+    const apiKey = process.env.GCP_GEMINI_API_KEY;
+    if (!apiKey) {
+      return res.status(500).json({ error: 'Gemini API key not configured' });
+    }
+
+    const imageBuffer = req.file.buffer;
+    const base64Image = imageBuffer.toString('base64');
+
+    const prompt = `You are an expert culinary vision assistant. Identify visible raw ingredients (not dishes) in the photo.
+- Return a compact JSON object only, no prose.
+- Keys: ingredients_en (array of lowercase English words), ingredients_jp (array of Japanese strings as users would type: katakana for foreign items, kanji where common), confidence (0..1).
+- Avoid brand names and utensils.`;
+
+    const payload = {
+      contents: [
+        {
+          role: 'user',
+          parts: [
+            { text: prompt },
+            { inline_data: { mime_type: req.file.mimetype || 'image/jpeg', data: base64Image } }
+          ]
+        }
+      ]
+    };
+
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    const response = await axios.post(url, payload, {
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    // Extract text output
+    const text = response?.data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+
+    function safeParseJson(s) {
+      try {
+        const match = s.match(/```json[\s\S]*?```/i) || s.match(/```[\s\S]*?```/);
+        const raw = match ? match[0].replace(/```json|```/g, '').trim() : s.trim();
+        return JSON.parse(raw);
+      } catch (_) {
+        return null;
+      }
+    }
+
+    const parsed = safeParseJson(text) || { ingredients_en: [], ingredients_jp: [], confidence: 0.6 };
+
+    // Normalize English
+    const en = normalizeEnglish(parsed.ingredients_en || []);
+
+    // Normalize Japanese by adding mapped equivalents
+    const japaneseSet = new Set();
+    // Add any Gemini-provided Japanese first
+    for (const term of parsed.ingredients_jp || []) {
+      if (!term || typeof term !== 'string') continue;
+      japaneseSet.add(term);
+      if (ingredientMapping[term]) japaneseSet.add(ingredientMapping[term]);
+    }
+    // If Gemini returned only English, map common items to Japanese
+    for (const mapped of mapEnglishToJapanese(en)) {
+      japaneseSet.add(mapped);
+      if (ingredientMapping[mapped]) japaneseSet.add(ingredientMapping[mapped]);
+    }
+
+    res.json({
+      ingredients_en: en.slice(0, 20),
+      ingredients_jp: Array.from(japaneseSet).slice(0, 20),
+      confidence: typeof parsed.confidence === 'number' ? parsed.confidence : 0.6,
+      source: 'gemini-1.5-flash'
+    });
+  } catch (error) {
+    console.error('Gemini detect error:', error?.response?.data || error.message);
+    res.status(200).json({
+      ingredients_en: ['tomato', 'onion', 'garlic'],
+      ingredients_jp: ['トマト', 'タマネギ', 'ニンニク'],
+      confidence: 0.5,
+      source: 'fallback'
     });
   }
 });
