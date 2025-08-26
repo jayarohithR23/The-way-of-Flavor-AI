@@ -1,88 +1,95 @@
-# The Way of Flavor AI (味の道AI)
+# Ajinomichi AI – Ingredient → Indian Recipes
 
-Modern, minimal recipe assistant for non-cooks. Detect ingredients, find authentic Indian recipes first, and view step‑by‑step instructions with English ↔ Japanese support.
+Find Indian recipes by typing ingredients (EN/JA) or uploading a photo. The app detects ingredients with Gemini Vision, maps Japanese kanji/katakana, and searches a MongoDB recipe DB.
 
-## Features
-- Local-first: recipes stored in MongoDB (`recipe_assistant.recipes`)
-- Ingredient detection (simple local heuristic, no external API)
-- Search by detected or typed ingredients
-- Bilingual UI (EN/JA) with instant toggle
-- Clean React + Tailwind UI with landing page
+## ✨ Features
+- Image ingredient detection (Gemini Vision)
+- Japanese/English UI toggle (chips show EN in EN mode, JP in JA mode)
+- Katakana ↔ Kanji mapping for search (e.g., タマネギ/玉葱)
+- 40+ curated Indian recipes with `ingredients_jp` and `instructions_jp`
+- Backend: Node + Express + MongoDB (Atlas/Local)
+- Frontend: React + Vite + Tailwind
 
-## Tech
-- Frontend: React 18, Vite, Tailwind, Framer Motion
-- Backend: Node.js + Express, MongoDB
-- Optional: OpenAI for on‑the‑fly translation (disabled by default)
-
-## Quick Start
-1) Install deps
-   ```bash
-   npm install
-cd backend && npm install && cd ..
+## 📂 Project Structure
+```
+root/
+  backend/          # Express API (MongoDB, detection, search)
+  src/              # React app
+  public/           # Static assets
 ```
 
-2) Create backend/.env
-   ```env
-# Required
-MONGODB_URI=mongodb://localhost:27017/recipe_assistant
-   PORT=5000
-
-# Optional (only needed if you will call /api/translate)
-OPENAI_API_KEY=your_openai_api_key
-
-# External international recipes (TheMealDB). Default off.
-ENABLE_EXTERNAL=false
+## 🔑 Environment Variables
+Create `backend/.env` (do not commit):
 ```
-Tip: You can use your MongoDB Atlas URI. The app uses DB name `recipe_assistant` unless you change it in `backend/server.js` (`dbName`).
+MONGODB_URI=your_mongodb_uri
+GCP_GEMINI_API_KEY=your_gemini_api_key
+PORT=5000
+```
+Notes:
+- OpenAI is not required. `/api/translate` is a no‑op and returns input as-is.
 
-3) Run
-```bash
-# Backend
+## 🚀 Run Locally
+1) Backend
+```
 cd backend
+npm install
 npm run dev
-# Frontend (new terminal)
+```
+- Health: http://localhost:5000/api/health → `{ status: 'OK' }`
+
+2) Frontend
+```
 cd ..
+npm install
 npm run dev
 ```
-- Frontend: http://localhost:3000
-- Backend:  http://localhost:5000
+Open the URL printed by Vite (usually http://localhost:5173).
 
-## Useful Commands
-```bash
-# Production build (frontend)
-npm run build && npm run preview
-# Start backend in prod mode
-cd backend && npm start
+## 🧪 Test Ingredient Detection (PowerShell)
 ```
-
-## Configuration Notes
-- External recipes (international) are fetched from TheMealDB only when `ENABLE_EXTERNAL=true`. Otherwise only Indian recipes from your MongoDB are shown.
-- Translations work without OpenAI because many recipes already include Japanese fields. `/api/translate` uses OpenAI only if you provide `OPENAI_API_KEY`.
-
-## Project Structure
+curl.exe -X POST -F "image=@C:\\path\\to\\food.jpg" http://localhost:5000/api/detect
 ```
-./
-├── src/                # React app
-│   ├── components/     # HomePage, Home, Navbar, etc.
-│   ├── contexts/       # LanguageContext
-│   └── main.jsx
-├── backend/
-│   ├── server.js       # Express API
-│   ├── data/indian_recipes.json  # seed used on first run
-│   └── env.example
-└── README.md
+Expected JSON:
+```json
+{
+  "ingredients_en": ["chicken"],
+  "ingredients_jp": ["鶏肉"],
+  "confidence": 0.95,
+  "source": "gemini-1.5-flash"
+}
 ```
+The UI will show English chips in EN mode and Japanese chips in JA mode.
 
-## API (brief)
-- `GET /api/health` – server status
-- `GET /api/recipes` – all local recipes
-- `GET /api/recipes/search?ingredients=a,b,c` – search (local + optional external)
-- `GET /api/recipes/:id` – recipe by id (local; falls back to external if enabled)
-- `POST /api/translate` – translate text (requires `OPENAI_API_KEY`)
-- `POST /api/detect-ingredients` – detect ingredients from image (local heuristic)
+## 🔎 Search API
+- `GET /api/recipes/search?ingredients=トマト,玉葱` – supports EN and JA. JP mapping is bidirectional (katakana/kanji).
+- `GET /api/recipes/:id` – recipe details (EN/JA fields available).
+- `GET /api/recipes/reload` – reload DB from `backend/data/indian_recipes.json`.
 
-## Contributing
-PRs welcome. Keep code simple, accessible, and consistent with the current style.
+## 🌐 Deployment
+- Frontend: Vercel
+  - Build: `npm run build`
+  - Output: `dist`
+  - Optional: `VITE_BACKEND_URL=https://your-backend.onrender.com`
+- Backend: Render (Web Service)
+  - Build: `npm install`
+  - Start: `node server.js` (or `npm start`)
+  - Env: set the backend `.env` vars above
 
-## License
-MIT
+## 🛠️ Troubleshooting
+- Detection returns `{ error: 'Gemini API key not configured' }`
+  - Ensure key is in `backend/.env`, restart backend.
+- JA chips show English words
+  - Hard refresh the frontend.
+  - Ensure `/api/detect` returns `ingredients_jp` (backend maps common EN→JP automatically).
+- No recipes found
+  - Use common ingredients (e.g., 鶏肉, 米, 玉葱). You can reload DB via `/api/recipes/reload`.
+
+## 📜 Scripts
+- Backend: `npm run dev` (nodemon)
+- Frontend: `npm run dev`, `npm run build`, `npm run preview`
+
+## 🧹 Repo Hygiene
+- `.gitignore` excludes `node_modules`, `dist`, logs, and env files
+- Secrets live only in hosting env vars, not in the repo
+
+Enjoy cooking with Ajinomichi AI! 🍛🇮🇳
