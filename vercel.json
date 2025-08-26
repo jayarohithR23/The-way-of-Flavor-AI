@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "https://the-way-of-flavor-ai-backend.onrender.com/api/$1" }
+    ]
+  }
